@@ -1,7 +1,10 @@
 import setuptools
+import os
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+base_dir = os.path.abspath(os.path.dirname(__file__))
+
+with open(os.path.join(base_dir, 'README.md')) as f:
+        long_description = '\n{}'.format(f.read())
 
 setuptools.setup(
     name="client", # Replace with your own username
