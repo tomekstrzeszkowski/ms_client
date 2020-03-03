@@ -1,4 +1,9 @@
 # Install
+##
+```
+pip install git+https://github.com/tomekstrzeszkowski/ms_client.git
+```
+### Development
 ```
 pip install -e .
 ```
