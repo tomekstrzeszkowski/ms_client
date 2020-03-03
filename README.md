@@ -3,7 +3,12 @@
 ```
 pip install git+https://github.com/tomekstrzeszkowski/ms_client.git
 ```
-### Development
+### Development installation
+Clone and open the repository
+```
+git clone https://github.com/tomekstrzeszkowski/ms_client && cd $0
+```
+Then install it using:
 ```
 pip install -e .
 ```
