@@ -2,4 +2,4 @@ build/*
 client.egg-info/*
 __pycache__/*
 venv-package/*
-
+venv/*
